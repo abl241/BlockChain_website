@@ -1,0 +1,445 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-10T00:00:00Z",
+  "title": "Design System: Blockchain at Emory",
+  "extensions": {
+    "colorMeta": {
+      "gold": {
+        "role": "primary",
+        "displayName": "Engraving Gold",
+        "canonical": "oklch(78.5% 0.164 77.6)",
+        "tonalRamp": [
+          "#1c0400",
+          "#3e1b00",
+          "#643500",
+          "#8d5200",
+          "#b77100",
+          "#d59824",
+          "#f4bf6b",
+          "#ffe7a4"
+        ]
+      },
+      "gold-bright": {
+        "role": "primary",
+        "displayName": "Struck Gold",
+        "canonical": "oklch(84.7% 0.161 83.4)",
+        "tonalRamp": [
+          "#1a0500",
+          "#3b1d00",
+          "#603900",
+          "#875600",
+          "#af7600",
+          "#ce9c25",
+          "#eec26b",
+          "#ffeaa4"
+        ]
+      },
+      "gold-line": {
+        "role": "primary",
+        "displayName": "Gold Rule",
+        "canonical": "oklch(78.5% 0.164 77.6 / 0.55)",
+        "tonalRamp": [
+          "#1c0400",
+          "#3e1b00",
+          "#643500",
+          "#8d5200",
+          "#b77100",
+          "#d59824",
+          "#f4bf6b",
+          "#ffe7a4"
+        ]
+      },
+      "gold-hair": {
+        "role": "primary",
+        "displayName": "Gold Hair",
+        "canonical": "oklch(78.5% 0.164 77.6 / 0.26)",
+        "tonalRamp": [
+          "#1c0400",
+          "#3e1b00",
+          "#643500",
+          "#8d5200",
+          "#b77100",
+          "#d59824",
+          "#f4bf6b",
+          "#ffe7a4"
+        ]
+      },
+      "gold-faint": {
+        "role": "primary",
+        "displayName": "Gold Wash",
+        "canonical": "oklch(78.5% 0.164 77.6 / 0.12)",
+        "tonalRamp": [
+          "#1c0400",
+          "#3e1b00",
+          "#643500",
+          "#8d5200",
+          "#b77100",
+          "#d59824",
+          "#f4bf6b",
+          "#ffe7a4"
+        ]
+      },
+      "emory-blue": {
+        "role": "secondary",
+        "displayName": "Emory Blue Stock",
+        "canonical": "oklch(28.5% 0.131 262.3)",
+        "tonalRamp": [
+          "#010825",
+          "#0e234b",
+          "#244075",
+          "#3c5fa2",
+          "#5780d0",
+          "#7fa5ec",
+          "#a8caff",
+          "#d3efff"
+        ]
+      },
+      "ground": {
+        "role": "neutral",
+        "displayName": "Night Field",
+        "canonical": "oklch(22.4% 0.062 262.5)",
+        "tonalRamp": [
+          "#050b18",
+          "#1b2537",
+          "#35425b",
+          "#516180",
+          "#6f83a8",
+          "#93a6c7",
+          "#bacae7",
+          "#e2efff"
+        ]
+      },
+      "panel": {
+        "role": "neutral",
+        "displayName": "Image Bed",
+        "canonical": "oklch(29.8% 0.095 262.8)",
+        "tonalRamp": [
+          "#030a1e",
+          "#162441",
+          "#2e4167",
+          "#486190",
+          "#6482bb",
+          "#8aa5d9",
+          "#b2caf7",
+          "#dbefff"
+        ]
+      },
+      "ink-deep": {
+        "role": "neutral",
+        "displayName": "Deep Ink",
+        "canonical": "oklch(18.5% 0.055 263.8)",
+        "tonalRamp": [
+          "#060b16",
+          "#1d2536",
+          "#374258",
+          "#53617d",
+          "#7182a4",
+          "#96a5c4",
+          "#bccae4",
+          "#e3efff"
+        ]
+      },
+      "text": {
+        "role": "neutral",
+        "displayName": "Paper White",
+        "canonical": "oklch(95.8% 0.010 267.4)",
+        "tonalRamp": [
+          "#0a0b0d",
+          "#242528",
+          "#404246",
+          "#5f6166",
+          "#808288",
+          "#a3a5ab",
+          "#c7c9ce",
+          "#edeef2"
+        ]
+      },
+      "text-2": {
+        "role": "neutral",
+        "displayName": "Faded Ink",
+        "canonical": "oklch(80.8% 0.042 267.0)",
+        "tonalRamp": [
+          "#080b14",
+          "#1f2532",
+          "#3b4253",
+          "#586177",
+          "#77829c",
+          "#9ba5bc",
+          "#c0c9de",
+          "#e7eeff"
+        ]
+      },
+      "text-3": {
+        "role": "neutral",
+        "displayName": "Ghost Ink",
+        "canonical": "oklch(69.4% 0.056 267.2)",
+        "tonalRamp": [
+          "#070b16",
+          "#1e2536",
+          "#384158",
+          "#55617e",
+          "#7382a4",
+          "#98a5c4",
+          "#bdc9e4",
+          "#e5eeff"
+        ]
+      },
+      "stock-text": {
+        "role": "neutral",
+        "displayName": "Stock Text",
+        "canonical": "oklch(86.4% 0.035 267.6)",
+        "tonalRamp": [
+          "#080b12",
+          "#202530",
+          "#3c4250",
+          "#596173",
+          "#798298",
+          "#9da5b9",
+          "#c2c9da",
+          "#e8eefd"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Certificate h1 and page titles (Team, 404)."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section h2 in the section head."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Division names and join panel headings."
+      },
+      "entry": {
+        "displayName": "Entry",
+        "purpose": "Ledger entry names, signature and member names, the events closing line."
+      },
+      "lede": {
+        "displayName": "Lede",
+        "purpose": "One-line claim under a page title."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Running copy, usually in text-2, 52 to 62ch."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "All-small-caps labels: issuer line, captions, ledger kind, footer headings, roles, class years."
+      },
+      "button": {
+        "displayName": "Button",
+        "purpose": "Button labels."
+      },
+      "serial": {
+        "displayName": "Serial",
+        "purpose": "Ledger serial numbers and dates only."
+      },
+      "column-header": {
+        "displayName": "Column Header",
+        "purpose": "Ledger column headers only, uppercase, text-3."
+      }
+    },
+    "shadows": [
+      {
+        "name": "focus-ring-field",
+        "value": "0 0 0 1px #f2a900",
+        "purpose": "Input focus ring paired with a gold border. The only box-shadow in the system; it is a stroke, not elevation."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Shared easing for every transition and the engraving draw."
+      },
+      {
+        "name": "engrave",
+        "value": "stroke-dashoffset 1 to 0, 2.4s ease-out, once (rosette 3s)",
+        "purpose": "Guilloché strokes draw themselves once on load; first frame on a page only. Skipped under reduced motion."
+      },
+      {
+        "name": "rosette-turn",
+        "value": "rotate 360deg, 240s linear infinite",
+        "purpose": "Slow turn of the seal rosette; only under prefers-reduced-motion: no-preference."
+      },
+      {
+        "name": "state-transition",
+        "value": "0.25s ease-out (colors), 0.3s (arrow nudge), 0.4s (underline draw), 0.8s (image scale 1.03)",
+        "purpose": "Hover and focus feedback."
+      },
+      {
+        "name": "menu-sheet",
+        "value": "opacity + translateY(-8px), 0.25s ease-out",
+        "purpose": "Mobile navigation sheet open/close."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "nav",
+        "value": "920px"
+      },
+      {
+        "name": "stack",
+        "value": "860px"
+      },
+      {
+        "name": "md",
+        "value": "760px"
+      },
+      {
+        "name": "list",
+        "value": "700px"
+      },
+      {
+        "name": "sm",
+        "value": "600px"
+      },
+      {
+        "name": "xs",
+        "value": "480px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Solid gold impression; one per panel, for the main action (Apply, Send message).",
+      "html": "<a class=\"ds-btn-gold\" href=\"#\">Apply to join <svg viewBox=\"0 0 16 16\" width=\"16\" height=\"16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" aria-hidden=\"true\"><path d=\"M2 8h11M9 4l4 4-4 4\"/></svg></a>",
+      "css": ".ds-btn-gold{display:inline-flex;align-items:center;justify-content:center;gap:0.6rem;min-height:48px;padding:0 1.4rem;font-family:var(--body, \"Hanken Grotesk\", system-ui, sans-serif);font-size:0.95rem;font-weight:600;letter-spacing:0.01em;text-decoration:none;border:1px solid var(--gold, #f2a900);border-radius:2px;cursor:pointer;transition:background-color 0.25s cubic-bezier(0.16, 1, 0.3, 1),color 0.25s cubic-bezier(0.16, 1, 0.3, 1),border-color 0.25s cubic-bezier(0.16, 1, 0.3, 1);background:var(--gold, #f2a900);color:#06112b;}.ds-btn-gold svg{transition:transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);}.ds-btn-gold:hover{background:var(--gold-bright, #ffc233);border-color:var(--gold-bright, #ffc233);}.ds-btn-gold:hover svg{transform:translateX(3px);}.ds-btn-gold:focus-visible{outline:2px solid var(--gold, #f2a900);outline-offset:3px;}"
+    },
+    {
+      "name": "Outline Button",
+      "kind": "button",
+      "refersTo": "button-line",
+      "description": "Gold-ruled outline for every secondary action.",
+      "html": "<a class=\"ds-btn-line\" href=\"#\">Partner with us <svg viewBox=\"0 0 16 16\" width=\"16\" height=\"16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" aria-hidden=\"true\"><path d=\"M2 8h11M9 4l4 4-4 4\"/></svg></a>",
+      "css": ".ds-btn-line{display:inline-flex;align-items:center;justify-content:center;gap:0.6rem;min-height:48px;padding:0 1.4rem;font-family:var(--body, \"Hanken Grotesk\", system-ui, sans-serif);font-size:0.95rem;font-weight:600;letter-spacing:0.01em;text-decoration:none;border:1px solid var(--gold, #f2a900);border-radius:2px;cursor:pointer;transition:background-color 0.25s cubic-bezier(0.16, 1, 0.3, 1),color 0.25s cubic-bezier(0.16, 1, 0.3, 1),border-color 0.25s cubic-bezier(0.16, 1, 0.3, 1);background:transparent;color:var(--text, #eef1f8);border-color:var(--gold-line, rgba(242,169,0,0.55));}.ds-btn-line svg{transition:transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);}.ds-btn-line:hover{border-color:var(--gold, #f2a900);background:var(--gold-faint, rgba(242,169,0,0.12));}.ds-btn-line:hover svg{transform:translateX(3px);}.ds-btn-line:focus-visible{outline:2px solid var(--gold, #f2a900);outline-offset:3px;}"
+    },
+    {
+      "name": "Text Field",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Night-field input with a faded-ink border; focus turns the border and a 1px ring gold.",
+      "html": "<label class=\"ds-field\"><span>Email</span><input type=\"email\" placeholder=\"\"></label>",
+      "css": ".ds-field{display:grid;gap:0.4rem;font-family:var(--body, \"Hanken Grotesk\", system-ui, sans-serif);}.ds-field span{font-size:0.85rem;font-weight:600;color:var(--text-2, #b4c0dc);}.ds-field input{min-height:48px;padding:0.75rem 0.9rem;font:inherit;font-size:1rem;color:var(--text, #eef1f8);background:var(--ground, #0b1a38);border:1px solid rgba(180,192,220,0.35);border-radius:2px;caret-color:var(--gold, #f2a900);transition:border-color 0.2s ease;}.ds-field input:hover{border-color:rgba(180,192,220,0.6);}.ds-field input:focus-visible{outline:none;border-color:var(--gold, #f2a900);box-shadow:0 0 0 1px var(--gold, #f2a900);}"
+    },
+    {
+      "name": "Site Navigation",
+      "kind": "nav",
+      "refersTo": "nav-link",
+      "description": "Bodoni wordmark with roman gold \"at\", faded-ink links, gold underline on the current page, compact gold Apply.",
+      "html": "<nav class=\"ds-nav\"><span class=\"ds-brand\">Blockchain <em>at</em> Emory</span><span class=\"ds-links\"><a href=\"#\" aria-current=\"page\">Work</a><a href=\"#\">Events</a><a href=\"#\">Team</a><a class=\"ds-apply\" href=\"#\">Apply</a></span></nav>",
+      "css": ".ds-nav{display:flex;align-items:center;justify-content:space-between;gap:1.5rem;height:72px;padding:0 1.5rem;background:var(--ground, #0b1a38);border-bottom:1px solid var(--gold-hair, rgba(242,169,0,0.26));}.ds-brand{font-family:var(--display, \"Bodoni Moda\", Didot, \"Bodoni 72\", Georgia, serif);font-size:1.2rem;font-weight:600;color:var(--text, #eef1f8);white-space:nowrap;}.ds-brand em{font-style:normal;font-weight:400;color:var(--gold, #f2a900);}.ds-links{display:flex;align-items:center;gap:0.25rem;}.ds-links a:not(.ds-apply){display:inline-flex;align-items:center;min-height:44px;padding:0 0.75rem;font-family:var(--body, \"Hanken Grotesk\", system-ui, sans-serif);font-size:0.93rem;font-weight:500;color:var(--text-2, #b4c0dc);text-decoration:none;transition:color 0.2s ease;}.ds-links a:not(.ds-apply):hover,.ds-links a[aria-current=page]{color:var(--text, #eef1f8);}.ds-links a[aria-current=page]{text-decoration:underline;text-decoration-color:var(--gold, #f2a900);text-underline-offset:0.5em;}.ds-links a:focus-visible{outline:2px solid var(--gold, #f2a900);outline-offset:3px;}.ds-apply{display:inline-flex;align-items:center;min-height:40px;margin-left:0.75rem;padding:0 1.1rem;background:var(--gold, #f2a900);color:#06112b;border-radius:2px;font-family:var(--body, \"Hanken Grotesk\", system-ui, sans-serif);font-size:0.95rem;font-weight:600;text-decoration:none;}.ds-apply:hover{background:var(--gold-bright, #ffc233);}"
+    },
+    {
+      "name": "Ledger Row",
+      "kind": "custom",
+      "refersTo": "ledger-row",
+      "description": "Register entry: gold mono serial, Bodoni entry, small-caps kind, gold destination; whole row is a link.",
+      "html": "<div class=\"ds-ledger\"><div class=\"ds-lrow ds-lhead\"><span>No.</span><span>Entry</span><span>Kind</span><span></span></div><a class=\"ds-lrow\" href=\"#\"><span class=\"ds-serial\">001</span><span><strong>Solana validator</strong><span class=\"ds-desc\">A mainnet validator run by club members.</span></span><span class=\"ds-kind\">Infrastructure</span><span class=\"ds-go\">StakeWiz <svg viewBox=\"0 0 16 16\" width=\"15\" height=\"15\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" aria-hidden=\"true\"><path d=\"M5 11l6-6M6 5h5v5\"/></svg></span></a></div>",
+      "css": ".ds-ledger{border-top:1px solid var(--gold-line, rgba(242,169,0,0.55));font-family:var(--body, \"Hanken Grotesk\", system-ui, sans-serif);color:var(--text, #eef1f8);}.ds-lrow{display:grid;grid-template-columns:4.5rem minmax(0,1fr) 10rem 8.5rem;gap:1.5rem;align-items:baseline;padding:1.6rem 0.75rem;border-bottom:1px solid var(--gold-hair, rgba(242,169,0,0.26));color:inherit;text-decoration:none;transition:background-color 0.3s cubic-bezier(0.16, 1, 0.3, 1);}.ds-lhead{padding-block:0.8rem;font-family:var(--mono, \"JetBrains Mono\", ui-monospace, Menlo, monospace);font-size:0.72rem;letter-spacing:0.05em;text-transform:uppercase;color:var(--text-3, #8d9cc0);}.ds-serial{font-family:var(--mono, \"JetBrains Mono\", ui-monospace, Menlo, monospace);font-size:0.78rem;letter-spacing:0.04em;font-variant-numeric:tabular-nums;color:var(--gold, #f2a900);}.ds-lrow strong{display:block;font-family:var(--display, \"Bodoni Moda\", Didot, \"Bodoni 72\", Georgia, serif);font-size:1.6rem;font-weight:500;line-height:1.15;}.ds-desc{display:block;margin-top:0.45rem;color:var(--text-2, #b4c0dc);font-size:0.97rem;}.ds-kind{color:var(--text-2, #b4c0dc);font-variant-caps:all-small-caps;font-weight:600;letter-spacing:0.05em;}.ds-go{display:inline-flex;align-items:center;justify-content:flex-end;gap:0.4rem;font-weight:600;font-size:0.92rem;color:var(--gold, #f2a900);}.ds-go svg{transition:transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);}a.ds-lrow:hover,a.ds-lrow:focus-visible{background:var(--gold-faint, rgba(242,169,0,0.12));outline:none;}a.ds-lrow:hover .ds-go svg,a.ds-lrow:focus-visible .ds-go svg{transform:translate(2px,-2px);}"
+    },
+    {
+      "name": "Division List",
+      "kind": "custom",
+      "refersTo": null,
+      "description": "Ruled two-column list; name underline draws in gold on hover. No icons or letter marks.",
+      "html": "<ul class=\"ds-divs\"><li><h3><a href=\"#\">Hacker Team</a></h3><p>Builds on-chain: hackathons, prototypes, and open-source tools.</p></li><li><h3><a href=\"#\">Education</a></h3><p>Workshops from first wallet to first contract.</p></li></ul>",
+      "css": ".ds-divs{list-style:none;margin:0;padding:0;border-top:1px solid var(--gold-line, rgba(242,169,0,0.55));font-family:var(--body, \"Hanken Grotesk\", system-ui, sans-serif);}.ds-divs li{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.3fr);gap:0.5rem 3rem;align-items:baseline;padding:1.6rem 0;border-bottom:1px solid var(--gold-hair, rgba(242,169,0,0.26));}.ds-divs h3{margin:0;font-family:var(--display, \"Bodoni Moda\", Didot, \"Bodoni 72\", Georgia, serif);font-weight:500;font-size:2rem;line-height:1.05;letter-spacing:-0.015em;}.ds-divs h3 a{color:var(--text, #eef1f8);text-decoration:none;background:linear-gradient(var(--gold, #f2a900),var(--gold, #f2a900)) 0 100%/0 1px no-repeat;transition:background-size 0.4s cubic-bezier(0.16, 1, 0.3, 1),color 0.2s ease;}.ds-divs h3 a:hover,.ds-divs h3 a:focus-visible{color:var(--gold, #f2a900);background-size:100% 1px;outline:none;}.ds-divs p{margin:0;color:var(--text-2, #b4c0dc);}"
+    },
+    {
+      "name": "Certificate Panel",
+      "kind": "card",
+      "refersTo": "certificate",
+      "description": "Emory blue stock with 135-degree gold hatching inside a lattice frame (static keyline shown here), small-caps issuer line at the foot.",
+      "html": "<div class=\"ds-cert\"><h1>Blockchain <em>at</em> Emory</h1><p class=\"ds-claim\">Emory’s student blockchain organization.</p><p class=\"ds-foot\">Emory University · Atlanta, Georgia</p></div>",
+      "css": ".ds-cert{padding:3rem 2.5rem 2rem;background:repeating-linear-gradient(135deg,rgba(242,169,0,0.035) 0 1px,transparent 1px 7px),var(--emory-blue, #012169);outline:1px solid var(--gold-line, rgba(242,169,0,0.55));outline-offset:-14px;color:var(--text, #eef1f8);font-family:var(--body, \"Hanken Grotesk\", system-ui, sans-serif);}.ds-cert h1{margin:0;font-family:var(--display, \"Bodoni Moda\", Didot, \"Bodoni 72\", Georgia, serif);font-size:3.5rem;font-weight:500;line-height:0.98;letter-spacing:-0.025em;}.ds-cert h1 em{font-style:normal;font-weight:400;color:var(--gold, #f2a900);}.ds-claim{margin:1.25rem 0 0;max-width:44ch;font-size:1.15rem;line-height:1.55;color:var(--text-2, #b4c0dc);}.ds-foot{margin:2.5rem 0 0;color:#c8d2ea;font-variant-caps:all-small-caps;font-weight:600;letter-spacing:0.05em;}"
+    },
+    {
+      "name": "Team Portrait",
+      "kind": "custom",
+      "refersTo": "portrait",
+      "description": "Oval vignette with a gold keyline offset 5px; keyline brightens on hover.",
+      "html": "<a class=\"ds-member\" href=\"#\"><span class=\"ds-oval\"></span><span class=\"ds-mname\">Member Name</span><span class=\"ds-mrole\">Co-President</span><span class=\"ds-myear\">Class of 2027</span></a>",
+      "css": ".ds-member{display:grid;width:180px;color:var(--text, #eef1f8);text-decoration:none;font-family:var(--body, \"Hanken Grotesk\", system-ui, sans-serif);}.ds-oval{display:block;aspect-ratio:4/5;margin:6px 6px 1.1rem;background:var(--panel, #122a5c);border-radius:50%;outline:1px solid var(--gold-line, rgba(242,169,0,0.55));outline-offset:5px;transition:outline-color 0.3s cubic-bezier(0.16, 1, 0.3, 1);}.ds-member:hover .ds-oval,.ds-member:focus-visible .ds-oval{outline-color:var(--gold, #f2a900);}.ds-member:focus-visible{outline:none;}.ds-mname{margin-inline:6px;font-family:var(--display, \"Bodoni Moda\", Didot, \"Bodoni 72\", Georgia, serif);font-size:1.3rem;font-weight:500;line-height:1.2;}.ds-mrole{margin:0.35rem 6px 0;font-size:0.9rem;color:var(--text-2, #b4c0dc);}.ds-myear{margin:0.35rem 6px 0;font-variant-caps:all-small-caps;font-weight:600;font-size:0.95rem;letter-spacing:0.05em;color:var(--text-3, #8d9cc0);}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Engraved Certificate",
+    "overview": "**Creative North Star: \"The Engraved Certificate\"**\n\nThe club presents itself as a security certificate: something issued, numbered and verifiable. The ground is a deep Emory navy; on it, gold behaves like engraving ink, drawn in hairlines, woven guilloché lattices and a turning rosette seal rather than poured into fills. Content sits in ledgers and framed panels the way entries sit on a register, so a visitor reads the club's work as a record rather than as marketing.\n\nDensity is moderate and print-like: generous section breathing room (up to 8rem), hairline rules between rows, and a high-contrast Didone display serif that carries the ceremony while a plain grotesk does the reading. Ornament is generated, not imported: every lattice, band and rosette is SVG drawn by script from sine strands, so it stays crisp at any width and redraws on resize.\n\nThe world refuses the crypto-club default: no gradient hero, no glass cards, no floating stat tiles, no glow. Depth comes from engraving and tonal navy stock, never from shadow.",
+    "keyCharacteristics": [
+      "Navy field tinted from Emory blue; no neutral greys or black anywhere.",
+      "Gold as ink: linework, the seal mark, link affordances and one filled primary action per panel.",
+      "Generated guilloché: border lattice on framed panels, rosette seal, horizontal lattice band heading each divided section.",
+      "Bodoni Moda display over Hanken Grotesk body; JetBrains Mono only for serials, dates and column headers.",
+      "Ruled lists and ledgers instead of cards; 2px hairline corners; ovals only for portraits and the seal.",
+      "One-time engraving stroke draw on load and a 240s rosette turn, both off under reduced motion."
+    ],
+    "rules": [
+      {
+        "name": "The Gold Ink Rule",
+        "body": "Gold is drawn, not poured. It appears as strokes, small type and the seal; the only solid gold fill is the primary button (plus the skip link and selection highlight). Never fill a panel, band or heading block with gold.",
+        "section": "colors"
+      },
+      {
+        "name": "The One Fill Rule",
+        "body": "One gold-filled button per panel or region (certificate: Apply; nav: Apply; students column: Apply; company column: Send message). Every other action is the outline button or a gold text link.",
+        "section": "colors"
+      },
+      {
+        "name": "The Tinted Navy Rule",
+        "body": "Every surface derives from Emory blue (`ground`, `emory-blue`, `panel`, `ink-deep`). No pure black, no neutral grey, no off-hue darks.",
+        "section": "colors"
+      },
+      {
+        "name": "The Serial Rule",
+        "body": "Mono is for serials, dates and ledger column headers. Nothing else is set in JetBrains Mono: not labels, not navigation, not captions.",
+        "section": "typography"
+      },
+      {
+        "name": "The Small-Caps Label Rule",
+        "body": "Labels are the body face in all-small-caps, weight 600, 0.05em tracking. They sit beside or below what they label (issuer line at the certificate foot, role under a signature, kind in a ledger row), never as an eyebrow stacked above a heading.",
+        "section": "typography"
+      },
+      {
+        "name": "The Roman Wordmark Rule",
+        "body": "In \"Blockchain at Emory\" the \"at\" is roman, weight 400, in gold, both in the header brand and in the certificate h1. It is never italicized.",
+        "section": "typography"
+      },
+      {
+        "name": "The Engraved, Not Lifted Rule",
+        "body": "Panels are enclosed by linework, not raised by shadow. If something needs emphasis, frame it in lattice or put it on Emory blue stock.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Hairline Corner Rule",
+        "body": "Rectangles take 2px or nothing. Ovals are reserved for the seal and portraits; no pill buttons, no rounded cards.",
+        "section": "shapes"
+      }
+    ],
+    "dos": [
+      "Do draw ornament as generated SVG guilloché in gold (stroke widths 0.5 to 1px, non-scaling), never as raster texture or imported clip art.",
+      "Do separate content with paired hairlines: `gold-line` to open a list or ledger, `gold-hair` between rows.",
+      "Do keep exactly one gold-filled button per panel; every other action is the outline button or a gold text link.",
+      "Do set labels in Hanken Grotesk all-small-caps, weight 600, 0.05em, placed beside or below what they label.",
+      "Do reserve JetBrains Mono for serials, dates and ledger column headers.",
+      "Do use the Emory blue stock or a lattice frame when a panel needs to stand forward.",
+      "Do gate every animation behind `prefers-reduced-motion: no-preference` or the global reduced-motion collapse."
+    ],
+    "donts": [
+      "Don't use drop shadows, glows, glassmorphism or radial light pools; depth is engraving and stock.",
+      "Don't use gradient text or gradient fills as decoration (the hatching and the photo-caption scrim are the only gradients, and both are functional).",
+      "Don't put an eyebrow or kicker above a heading; the certificate's identifying line sits at its foot.",
+      "Don't italicize the \"at\" in the wordmark.",
+      "Don't set labels, captions or navigation in mono or uppercase-tracked mono.",
+      "Don't mark divisions or list items with icon tiles, emoji or letter badges; the ruled list carries them.",
+      "Don't introduce neutral greys, pure black, or a second accent hue.",
+      "Don't round rectangles beyond 2px or use pill shapes; ovals are for portraits and the seal only."
+    ]
+  }
+}
